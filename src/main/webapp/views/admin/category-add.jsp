@@ -7,7 +7,11 @@
   <input type="file" id="imagesfile" name="imagesfile"><br>
   <label for="imageslink">Images Link:</label><br>
   <input type="text" id="imageslink" name="imageslink"><br>
-  <label for="status">Status:</label><br>
-  <input type="text" id="status" name="status"><br>
-  <br> <input type="submit" value="Submit">	 
+<label for="html">Status</label><br>
+<input type="radio" id="ston" name="status" value="1">
+<label for="css">Hoạt động</label><br>
+<input type="radio" id="stoff" name="status" value="0">
+<label for="javascript">Khóa</label>
+<br><br>
+<input type="submit" value="Insert">
 </form>

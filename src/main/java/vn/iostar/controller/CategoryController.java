@@ -122,7 +122,7 @@ public class CategoryController extends HttpServlet {
 	        }
 
 	        Category category = new Category();
-	        category.setCategoryId(categoryid);
+	        category.setCategoryid(categoryid);
 	        category.setCategoryname(categoryname);
 	        category.setStatus(status);
 	        category.setImages(images);

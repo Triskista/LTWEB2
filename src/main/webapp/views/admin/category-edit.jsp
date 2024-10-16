@@ -28,8 +28,11 @@
     <input type="text" id="imageslink" name="imageslink"><br>
 
     <!-- Status -->
-    <label for="status">Status:</label><br>
-    <input type="text" id="status" name="status" value="${cate.status }"><br>
+    <label for="html">Status</label><br>
+	<input type="radio" id="ston" name="status" value="1" ${cate.status==1?'checked':'' }>
+	<label for="css">Hoạt động</label><br>
+	<input type="radio" id="stoff" name="status" value="0" ${cate.status!=1?'checked':'' }>
+	<label for="javascript">Khóa</label>
     
     <!-- Submit Button -->
     <br>

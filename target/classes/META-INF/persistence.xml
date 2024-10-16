@@ -6,10 +6,10 @@
 	version="3.0">
 
 	<persistence-unit name="jpa-hibernate-sql">
-		<!-- <class>vn.iostar.entity.Category</class>
+		<class>vn.iostar.entity.Category</class>
 		<class>vn.iostar.entity.Video</class>
 		<class>vn.iostar.entity.User</class>
-		<class>vn.iostar.entity.Role</class> -->
+		<class>vn.iostar.entity.Role</class>
 		<properties>
 			<property name="jakarta.persistence.jdbc.url"
 				value="jdbc:sqlserver://TRISKISTA\SQLEXPRESS;databaseName=lab03" />
