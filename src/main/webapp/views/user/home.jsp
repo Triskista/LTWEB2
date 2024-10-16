@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
- <!-- BEGIN SLIDER -->
+<!-- BEGIN SLIDER -->
     <div class="page-slider margin-bottom-35">
       <!-- LayerSlider start -->
       <div id="layerslider" style="width: 100%; height: 494px; margin: 0 auto;">
@@ -564,4 +564,4 @@
             </div>
         </div>
     </div>
-    <!-- END BRANDS -->
+    <!-- END BRANDS -->		

@@ -2,9 +2,7 @@
 	pageEncoding="UTF-8"%>
 <div class="main">
 	<div class="container">
-
 		<!-- BEGIN CONTENT -->
-
 		<div class="col-md-9 col-sm-9">
 			<h1>Forgot Your Password?</h1>
 			<div class="content-form-page">
@@ -13,7 +11,7 @@
 						<h3 class="alert alert danger">${alert}</h3>
 					</c:if>
 					<div class="col-md-7 col-sm-7">
-						<form action="/lab02/forgotpsw" method="post"
+						<form action="/lab03/forgotpsw" method="post"
 							class="form-horizontal form-without-legend" role="form">
 							<div class="form-group">
 								<label for="email" class="col-lg-4 control-label">Email</label>
@@ -50,7 +48,7 @@
 				</div>
 			</div>
 		</div>
-
 		<!-- END CONTENT -->
-	</div>
 </div>
+</div>
+</div>>

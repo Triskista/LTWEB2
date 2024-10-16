@@ -1,10 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
+
 <div class="main">
 	<div class="container">
-		
 		<!-- BEGIN CONTENT -->
-		
 		<div class="col-md-9 col-sm-9">
 			<h1>My account</h1>
 			<div class="content-form-page">
@@ -13,17 +12,18 @@
 						<h3 class="alert alert danger">${alert}</h3>
 					</c:if>
 					<div class="col-md-7 col-sm-7">
-						<form action="/lab02/myaccount" method="post"
+						<form action="/lab03/myaccount" method="post"
 							class="form-horizontal" role="form" enctype="multipart/form-data">
 							<fieldset>
 								<legend>Your personal details</legend>
-								
 								<!-- CHANGE AVATAR TAB -->
-								
+
 								<div class="fileinput fileinput-new" data-provides="fileinput">
 									<div class="fileinput-new thumbnail"
 										style="width: 200px; height: 150px; margin-left: 170px;">
-										<img src="upload/${account.images}" alt="Ảnh mô tả" style="width: 100%; height: 100%;" />
+										<img
+											src="/lab03/upload/${account.images}"
+											alt="Ảnh mô tả" style="width: 100%; height: 100%;" />
 
 									</div>
 									<div class="form-group">
@@ -40,7 +40,6 @@
 								</div>
 
 								<!-- END CHANGE AVATAR TAB -->
-								
 								<div class="form-group">
 									<label for="fullname" class="col-lg-4 control-label">Full
 										Name <span class="require">*</span>
@@ -91,8 +90,6 @@
 				</div>
 			</div>
 		</div>
-		
 		<!-- END CONTENT -->
-	
 	</div>
 </div>

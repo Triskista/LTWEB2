@@ -8,10 +8,11 @@
 </head>
 <body>
 	Trang Chủ Của ADMIN
-	<form action="/lab02/user/home" method="post">
+	<form action="/lab03/admin/home" method="post">
 		<div class="container">
 			<button type="logout">Logout</button>
 			<a href="${pageContext.request.contextPath }/admin/categories">Categories</a>
+			<a href="${pageContext.request.contextPath }/admin/videos">Videos</a>
 		</div>
 	</form>
 </body>
